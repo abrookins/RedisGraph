@@ -7,7 +7,7 @@
   * @param  initialCapacity:
   * @retval Initialized array
   */
-SIValue SIArray_New(u_int32_t initialCapacity);
+SIValue SIArray_New(uint32_t initialCapacity);
 
 /**
   * @brief  Appends a new SIValue to a given array
@@ -25,14 +25,14 @@ void SIArray_Append(SIValue *siarray, SIValue value);
   * @param  index: index
   * @retval The value in the requested index
   */
-SIValue SIArray_Get(SIValue siarray, u_int32_t index);
+SIValue SIArray_Get(SIValue siarray, uint32_t index);
 
 /**
   * @brief  Returns the array length
   * @param  siarray:
   * @retval array length
   */
-u_int32_t SIArray_Length(SIValue siarray);
+uint32_t SIArray_Length(SIValue siarray);
 
 /**
   * @brief  Returns a copy of the array

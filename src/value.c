@@ -75,7 +75,7 @@ SIValue SI_Path(void *p) {
 	return SIPath_New(path);
 }
 
-SIValue SI_Array(u_int64_t initialCapacity) {
+SIValue SI_Array(uint64_t initialCapacity) {
 	return SIArray_New(initialCapacity);
 }
 
